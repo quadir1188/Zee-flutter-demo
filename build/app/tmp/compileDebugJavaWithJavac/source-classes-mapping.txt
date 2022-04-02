@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/zee/news_app/MainActivity.java
+ com.zee.news_app.MainActivity
+com/zee_news_app/BuildConfig.java
+ com.zee_news_app.BuildConfig

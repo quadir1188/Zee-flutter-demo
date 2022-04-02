@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zee.news_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.17.0] /Users/quadir/.gradle/caches/transforms-2/files-2.1/087aed1c5c985584f988600a207a73e8/jetified-exoplayer-core-2.17.0/AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.17.0] /Users/quadir/.gradle/caches/transforms-2/files-2.1/087aed1c5c985584f988600a207a73e8/jetified-exoplayer-core-2.17.0/AndroidManifest.xml:24:22-76
+16    <!--
+17 io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:9:5-29:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e596bd84a87a4cbdcf9d545f7eacbd1e/core-1.7.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:11:9-43
+27        android:label="Zee News Demo" >
+27-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:10:9-38
+28        <activity
+28-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:12:9-23:20
+29            android:name="com.zee.news_app.MainActivity"
+29-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:13:13-57
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:16:13-163
+31            android:hardwareAccelerated="true"
+31-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:17:13-47
+32            android:launchMode="singleTop"
+32-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:14:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:15:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:18:13-55
+35            <intent-filter>
+35-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:19:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:20:17-68
+36-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:21:17-76
+38-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
+41        <!--
+42             Don't delete the meta-data below.
+43             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+44        -->
+45        <meta-data
+45-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:26:9-28:33
+46            android:name="flutterEmbedding"
+46-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:27:13-44
+47            android:value="2" />
+47-->/Users/quadir/StudioProjects/news_app_demo/android/app/src/main/AndroidManifest.xml:28:13-30
+48
+49        <uses-library
+49-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.window.extensions"
+50-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+52        <uses-library
+52-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+53            android:name="androidx.window.sidecar"
+53-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0-beta04] /Users/quadir/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+55    </application>
+56
+57</manifest>
